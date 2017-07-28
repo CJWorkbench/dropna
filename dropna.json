@@ -1,5 +1,5 @@
 {
-  "name": "dropna",
+  "name": "Drop NA",
   "id_name": "dropna",
   "category" : "Invisible Institute",
   "description": "Drop rows where specified columns are null.",
