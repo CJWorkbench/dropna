@@ -2,6 +2,7 @@
   "name": "dropna",
   "id_name": "dropna",
   "category" : "Invisible Institute",
+  "description": "Drop rows where specified columns are null.",
   "parameters": [
     {
       "name": "Select Columns",
