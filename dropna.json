@@ -1,7 +1,7 @@
 {
   "name": "Drop NA",
   "id_name": "dropna",
-  "category" : "Filter",
+  "category" : "Wrangle",
   "description": "Drop rows if specific values are null.",
   "parameters": [
     {
