@@ -5,7 +5,7 @@
   "description": "Drop rows if specific values are null.",
   "parameters": [
     {
-      "name": "Select Columns",
+      "name": "Drop rows if the following values are null ",
       "id_name": "colselect",
       "type": "custom",
       "ui-only": true
