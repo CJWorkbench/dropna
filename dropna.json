@@ -3,6 +3,7 @@
   "id_name": "dropna",
   "category" : "Wrangle",
   "description": "Drop rows if specific values are null.",
+  "icon": "wrangle",
   "parameters": [
     {
       "name": "Drop rows if the following values are null ",
