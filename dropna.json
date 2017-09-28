@@ -1,7 +1,7 @@
 {
   "name": "Drop NA",
   "id_name": "dropna",
-  "category" : "Filter",
+  "category" : "Analyse",
   "description": "Drop rows if specific values are null.",
   "icon": "filter",
   "parameters": [
