@@ -2,20 +2,14 @@
   "name": "Drop NA",
   "id_name": "dropna",
   "category" : "Analyse",
-  "description": "Drop rows if specific values are null.",
+  "description": "Drop row if values in specific columns are null.",
   "icon": "filter",
   "parameters": [
     {
-      "name": "Drop rows if the following values are null ",
+      "name": "Drop row if values in the following columns are null",
       "id_name": "colselect",
-      "type": "multicolumn",
+      "type": "column",
       "ui-only": true
-    },
-    {
-      "name": "Column Names",
-      "id_name": "colnames",
-      "type": "string",
-      "visible": true
     }
   ]
 }
