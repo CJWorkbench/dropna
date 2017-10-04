@@ -18,7 +18,7 @@ class Importable:
         for c in cols:
             if not c in table.columns:
                 wf_module.set_error('There is no column named %s' % c)
-                return None
+                return table
 
         wf_module.set_ready(notify=False)
         newtab = table.dropna(subset=cols, how='all', axis='index')
