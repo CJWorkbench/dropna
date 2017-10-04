@@ -8,7 +8,7 @@
     {
       "name": "Drop rows if the following values are null ",
       "id_name": "colselect",
-      "type": "column",
+      "type": "multicolumn",
       "ui-only": true
     },
     {
