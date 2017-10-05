@@ -1,5 +1,5 @@
 {
-  "name": "Drop if empty values",
+  "name": "Drop if Empty Values",
   "id_name": "dropna",
   "category" : "Analyse",
   "description": "Drop row if values in specific columns are null.",
