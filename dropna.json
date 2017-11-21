@@ -7,7 +7,7 @@
   "parameters": [
     {
       "name": "Drop row if all values in these columns are empty",
-      "id_name": "colselect",
+      "id_name": "colnames",
       "type": "multicolumn"
     }
   ]
