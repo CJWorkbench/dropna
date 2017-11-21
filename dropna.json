@@ -8,14 +8,7 @@
     {
       "name": "Drop row if values in the following columns are empty",
       "id_name": "colselect",
-      "type": "multicolumn",
-      "ui-only": true
-    },
-    {
-        "name": "Column Names",
-        "id_name": "colnames",
-        "type": "string",
-        "visible": false
-      }
+      "type": "multicolumn"
+    }
   ]
 }
