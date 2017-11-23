@@ -6,7 +6,7 @@
   "icon": "filter",
   "parameters": [
     {
-      "name": "Drop row if all values in these columns are empty",
+      "name": "Drop row if all values in the following columns are empty",
       "id_name": "colnames",
       "type": "multicolumn"
     }
