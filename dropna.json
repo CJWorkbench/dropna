@@ -2,12 +2,12 @@
   "name": "Drop empty rows",
   "id_name": "dropna",
   "category" : "Analyse",
-  "description": "Drop row if values in specific columns are null.",
+  "description": "Drop row if specified columns are empty.",
   "icon": "filter",
   "parameters": [
     {
-      "name": "Drop row if all values in the following columns are empty",
-      "id_name": "colnames",
+      "name": "Drop row if all values in these columns are empty",
+      "id_name": "columns",
       "type": "multicolumn"
     }
   ]
