@@ -1,7 +1,7 @@
 def render(table, params):
 		import pandas as pd
 
-		cols = params['columns'].split(',')
+		cols = params['colnames'].split(',')
 		cols = [c.strip() for c in cols]
 		if cols == [] or cols == ['']:
 			return table

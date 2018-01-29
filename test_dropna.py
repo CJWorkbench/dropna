@@ -25,29 +25,29 @@ class TestDropNA(unittest.TestCase):
 		self.table['datecol'] = self.table['datecol'].astype(str)
 
 	def test_NOP(self):
-		params = { 'columns': ''}
+		params = { 'colnames': ''}
 		out = render(self.table, params)
 		self.assertTrue(out.equals(self.table)) # should NOP when first applied
 
 	def test_numeric(self):
-		params = { 'columns': 'intcol'}
+		params = { 'colnames': 'intcol'}
 		out = render(self.table, params)
 		ref = self.table[[True, True, True, True, True]]  # also tests no missing
 		self.assertTrue(out.equals(ref))
 
-		params = { 'columns': 'floatcol'}
+		params = { 'colnames': 'floatcol'}
 		out = render(self.table, params)
 		ref = self.table[[True, False, False, True, True]]
 		self.assertTrue(out.equals(ref))
 
 	def test_string(self):
-		params = { 'columns': 'stringcol'}
+		params = { 'colnames': 'stringcol'}
 		out = render(self.table, params)
 		ref = self.table[[True, True, False, False, True]]
 		self.assertTrue(out.equals(ref))
 
-	def test_multiple_columns(self):
-		params = { 'columns': 'intcol,floatcol'}
+	def test_multiple_colnames(self):
+		params = { 'colnames': 'intcol,floatcol'}
 		out = render(self.table, params)
 		self.assertTrue(out.equals(self.table))  # no drop b/c int has no empty vals
 
