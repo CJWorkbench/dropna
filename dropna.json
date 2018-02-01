@@ -4,6 +4,7 @@
   "category" : "Analyse",
   "description": "Drop row if specified columns are empty.",
   "icon": "filter",
+  "help_url":"modules/analyse/drop-empty-rows",
   "parameters": [
     {
       "name": "Drop row if all values in these columns are empty",
