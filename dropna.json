@@ -1,7 +1,7 @@
 {
   "name": "Drop empty rows",
   "id_name": "dropna",
-  "category" : "Analyse",
+  "category" : "Prepare",
   "description": "Drop row if specified columns are empty.",
   "icon": "filter",
   "help_url":"modules/analyse/drop-empty-rows",
