@@ -7,7 +7,7 @@
   "help_url":"modules/analyse/drop-empty-rows",
   "parameters": [
     {
-      "name": "Drop row if the following columns are empty",
+      "name": "Drop row if these columns are empty",
       "id_name": "colnames",
       "type": "multicolumn"
     }
