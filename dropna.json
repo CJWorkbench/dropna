@@ -4,7 +4,7 @@
   "category" : "Prepare",
   "description": "Drop row if specified columns are empty.",
   "icon": "filter",
-  "help_url":"modules/analyse/drop-empty-rows",
+  "help_url":"modules/prepare/drop-empty-rows",
   "parameters": [
     {
       "name": "Drop row if these columns are empty",
