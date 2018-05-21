@@ -2,7 +2,7 @@
   "name": "Drop empty rows",
   "id_name": "dropna",
   "category" : "Clean",
-  "description": "Drop row if specified columns are empty.",
+  "description": "Drop row if specified columns are empty",
   "icon": "filter",
   "help_url":"modules/clean/drop-empty-rows",
   "parameters": [
