@@ -8,8 +8,10 @@ def render(table, params):
 
     # convert empty strings to none, because dropna says '' is not na
 		for c in cols:
-			if pd.api.types.is_object_dtype(table[c]):  # object -> can have strings in it 
+			if table[c].dtype.name == 'object' or table[c].dtype.name == 'category':  # object -> can have strings in it
 				table[table[c] == ''] = None
+			if table[c].dtype.name == 'category':
+				table[c].cat.remove_unused_categories(inplace=True)
 
 		newtab = table.dropna(subset=cols, how='all', axis='index')
 		return newtab
