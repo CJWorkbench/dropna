@@ -5,7 +5,7 @@ def dropna(table, colnames):
     # convert empty strings to none, because dropna says '' is not na
     try:
         test_table = table[colnames]
-    except KeyError as err:
+    except KeyError:
         return 'You chose a missing column'
 
     # Find rows where any selected column is '' or np.nan
