@@ -7,4 +7,5 @@ help_url: modules/clean/drop-empty-rows
 parameters:
 - id_name: colnames
   type: multicolumn
-  name: Drop row if these columns are empty
+  name: Drop row if any of these columns is empty
+  deprecated_string_storage: false
